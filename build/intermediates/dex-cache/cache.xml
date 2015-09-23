@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="F:\GitHubSpace\dingos\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\libs\internal_impl-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="F:\GitHubSpace\dingos\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.1-7590ecfa39f5762349c6296849db9a536802c77d.jar" />
+    </item>
+    <item
+        jar="F:\GitHubSpace\dingos\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="39ae02ce40c3ac828abbf780ce0ff5d7a28b7d6a">
+        <dex dex="F:\GitHubSpace\dingos\app\build\intermediates\pre-dexed\debug\classes-bbfe88a789a6a236a7160937702a7bdceab70c73.jar" />
+    </item>
+    <item
+        jar="C:\Users\hongyu\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife\7.0.1\d5d13ea991eab0252e3710e5df3d6a9d4b21d461\butterknife-7.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d5d13ea991eab0252e3710e5df3d6a9d4b21d461">
+        <dex dex="F:\GitHubSpace\dingos\app\build\intermediates\pre-dexed\debug\butterknife-7.0.1-be1071da7acbffe4ba4700014dc647b280a8124c.jar" />
+    </item>
+    <item
+        jar="F:\GitHubSpace\dingos\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="4356e230a981d1bbf047d848b91bc0d9b7c5bacc">
+        <dex dex="F:\GitHubSpace\dingos\app\build\intermediates\pre-dexed\debug\classes-9524a163d07f06dc07656e2a622b45ab0f144bdb.jar" />
+    </item>
+    <item
+        jar="F:\GitHubSpace\dingos\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="F:\GitHubSpace\dingos\app\build\intermediates\pre-dexed\debug\classes-4060815cb5fa2832a0a9b16beaee4404d36ce3d9.jar" />
+    </item>
+    <item
+        jar="D:\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.0.1\support-annotations-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="F:\GitHubSpace\dingos\app\build\intermediates\pre-dexed\debug\support-annotations-23.0.1-9792d51791d92eddc0d9758885c1364396bdbf7e.jar" />
+    </item>
+    <item
+        jar="F:\GitHubSpace\dingos\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="F:\GitHubSpace\dingos\app\build\intermediates\pre-dexed\debug\classes-b6d4cb8e91e761e0b6679f7c622f64f420acafbd.jar" />
+    </item>
+
+</items>
