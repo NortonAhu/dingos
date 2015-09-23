@@ -6,6 +6,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import io.nortonahu.customhorizonviewpage.R;
+
 /**
  * Created by hongyu on 2015/9/22.
  * recyclerView适配器
@@ -18,6 +20,9 @@ public class NormalRecyclerViewAdapter extends RecyclerView.Adapter<NormalRecycl
     private String[] mTitles;
 
     public NormalRecyclerViewAdapter(Context context) {
+        mTitles = context.getResources().getStringArray(R.array.recyclerviewarray);
+        mContext = context;
+        mLayoutInflate = LayoutInflater.from(context);
     }
 
     @Override
