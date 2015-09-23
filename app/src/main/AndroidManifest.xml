@@ -17,12 +17,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <activity android:name=".activity.ToolBarActivity">
 
         </activity>
-        <activity android:name=".activity.RecyclerViewActivity">
+        <activity android:name=".activity.RecyclerViewActivity"/>
 
-        </activity>
     </application>
 
 </manifest>

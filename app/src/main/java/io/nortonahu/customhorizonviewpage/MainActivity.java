@@ -3,7 +3,6 @@ package io.nortonahu.customhorizonviewpage;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -12,6 +11,7 @@ import android.widget.Button;
 import butterknife.Bind;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
+import io.nortonahu.customhorizonviewpage.activity.RecyclerViewActivity;
 import io.nortonahu.customhorizonviewpage.activity.ToolBarActivity;
 
 public class MainActivity extends AppCompatActivity {
@@ -24,14 +24,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         ButterKnife.bind(this);
         setSupportActionBar(_toolBar);
-//        ActionBar actionBar = getSupportActionBar();
-//        if(actionBar != null)
-//        {
-//            actionBar.setDisplayHomeAsUpEnabled(true);
-//        }
-
-//        DeviceInfoUtils.getDensity();
-//        DeviceInfoUtils.getScreenSize(this);
     }
 
     @Override
@@ -48,12 +40,10 @@ public class MainActivity extends AppCompatActivity {
                 intent = new Intent(this, ToolBarActivity.class);
                 break;
             case R.id.recylerview_act:
-                intent = new Intent(this, RecyclerView.class);
+                intent = new Intent(this, RecyclerViewActivity.class);
                 break;
             default:
                 return;
-
-
         }
         startActivity(intent);
     }

@@ -11,6 +11,7 @@ import android.view.MenuItem;
 import butterknife.Bind;
 import butterknife.ButterKnife;
 import io.nortonahu.customhorizonviewpage.R;
+import io.nortonahu.customhorizonviewpage.adapter.NormalRecyclerViewAdapter;
 
 /**
  * Created by hongyu on 2015/9/22.
@@ -24,16 +25,18 @@ public class RecyclerViewActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        ButterKnife.bind(this);
         setContentView(R.layout.recycle_view_activity);
+        ButterKnife.bind(this);
         setSupportActionBar(_toolBar);
         ActionBar actionBar = getSupportActionBar();
         if(actionBar != null)
         {
             actionBar.setDisplayHomeAsUpEnabled(true);
+            actionBar.setDisplayShowTitleEnabled(false);
         }
         // 这里使用线性显示
         _recyclerView.setLayoutManager(new LinearLayoutManager(this));
+        _recyclerView.setAdapter(new NormalRecyclerViewAdapter(this));
     }
 
     @Override

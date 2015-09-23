@@ -11,5 +11,11 @@
         <item>ios</item>
         <item>window phone</item>
         <item>monday</item>
+        <item>Tag1</item>
+        <item>Tag2</item>
+        <item>Tag3</item>
+        <item>Tag4</item>
+        <item>Tag5</item>
+        <item>Tag6</item>
     </string-array>
 </resources>
